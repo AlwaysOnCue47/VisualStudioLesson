@@ -1,0 +1,26 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Visual Studio Assignment";
+}
+
+<div class="text-center">
+    <h1 class="display-6" id="hello" onmouseover="newColor()" onmouseout="oldColor()">My Visual Studio Assignment!</h1>
+</div>
+
+<div id="textBox">
+    <p>My Visual Studio Assignment</p>
+    <p>Note the font and background colour &#128515; </p>
+    <p><button onclick="myMove()">Click Me</button></p>
+</div>
+
+<div id="container">
+    <div id="animate"></div>
+</div>
+
+<div id="video">
+    <p>Here is a music video that I enjoy</p>
+    <iframe width="362" height="271" src="https://www.youtube.com/embed/EwTZ2xpQwpA" title="&quot;Chocolate Rain&quot; Original Song by Tay Zonday"
+            frameborder="0" allow="accelerometer; autoplay;
+    clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
