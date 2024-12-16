@@ -117,3 +117,7 @@ p {
     background-color: red;
     border-radius: 25px;
 }
+
+#stopBtn {
+    margin: auto;
+}
